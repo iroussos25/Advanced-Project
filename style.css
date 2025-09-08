@@ -48,7 +48,9 @@
     
     
     #personal-logo {
-        filter: invert(1);
-        height: 50px;
-        width: 50px;
+        height: 60px;
+    }
+
+    .fa-solid {
+        font-size: 20px;
     }
