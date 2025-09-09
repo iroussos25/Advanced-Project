@@ -79,6 +79,7 @@
 
     .social__list {
         margin-top: 16px;
+        display: flex;
 
     }
 
@@ -93,6 +94,7 @@
         border-radius: 50%;
         justify-content: center;
         align-items: center;
+        display: flex;
     }
 
 
