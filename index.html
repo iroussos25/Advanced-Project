@@ -40,14 +40,14 @@
                     link__hover-effect--black
                     ">Projects</a>
                 </li>
-                <li class="nav__link"> 
+                <li class="nav__link" onclick="toggleModal()"> 
                     <a href="#" class="
                     nav__link--anchor
                     link__hover-effect
                     link__hover-effect--black
                     ">Contact</a>
                 </li>
-                <li class="nav__link click"> 
+                <li class="nav__link click" onclick="toggleContrast()"> 
                     <a href="#" class="
                     nav__link--anchor
                     link__hover-effect
@@ -63,7 +63,7 @@
             
                 <h1 class="title title--secondary">I'm Yiannis.</h1>
                 <p class="header__para">I'm a <b class="orange">frontend Software Engineer</b> with a passionng web applications with amazing user experiences.<br>
-                     Here's a bit more <b class="orange">about me.</b></p>
+                     Here's a bit more <b class="orange click" onclick="toggleModal()">about me.</b></p>
                      <div class="social__list">
                         <a href="#" class="social__link click"><i class="fa-brands fa-linkedin"></i></a>
                         <a href="https://github.com/iroussos25/" class="social__link click"><i class="fa-brands fa-github"></i></a>
@@ -140,7 +140,7 @@
                 <div class="modal__overlay modal__overlay--success">
                     Thanks for the Message! <br> I'll get back to you soon.
                 </div>
-                <i class="fas fa-times modal__exit click"></i>
+                <i class="fas fa-times modal__exit click" onclick="toggleModal()"></i>
             </div>
         </div>
     </div>
@@ -210,7 +210,7 @@
             "footer__social--link
             link__hover-effect
             link__hover-effect--white
-            ">
+            " onclick="toggleModal()">
             Contact
         </a>
         <a href="#" class=
