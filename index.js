@@ -23,3 +23,8 @@ function contact(event) {
             );
         })
       }
+
+      function toggleModal() {
+//toggle modal
+document.body.classlist += " modal--open";
+      }
